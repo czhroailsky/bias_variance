@@ -1,10 +1,3 @@
 # Bias Variance Tradeoff
 
-latexImg = function(latex){
-
-    link = paste0('http://latex.codecogs.com/gif.latex?',
-           gsub('\\=','%3D',URLencode(latex)))
-
-    link = gsub("(%..)","\\U\\1",link,perl=TRUE)
-    return(paste0('![](',link,')'))
-}
+<img src="http://latex.codecogs.com/gif.latex?E_D[(g^D(x) - f(x))^2] = E_D[(g^D(x) - \bar{g}(x))^2] + (\bar{g}(x) - f(x))^2" border="0"/>
