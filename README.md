@@ -8,3 +8,13 @@ The following equation represents the expected out-of-sample error in terms of <
 The term <a href="https://www.codecogs.com/eqnedit.php?latex=(\bar{g}(x)-f(x))^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(\bar{g}(x)-f(x))^2" title="(\bar{g}(x)-f(x))^2" /></a> measures how much the average function that we would learn using different data sets <a href="https://www.codecogs.com/eqnedit.php?latex=D" target="_blank"><img src="https://latex.codecogs.com/gif.latex?D" title="D" /></a> deviates from the target function that generated these data sets. This term is called bias.
 
 <a href="https://www.codecogs.com/eqnedit.php?latex=bias(x)&space;=&space;(\bar{g}(x)&space;-&space;f(x))^2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?bias(x)&space;=&space;(\bar{g}(x)&space;-&space;f(x))^2" title="bias(x) = (\bar{g}(x) - f(x))^2" /></a>
+
+As it measures how much our learning model is biased away from the target function. This is because <a href="https://www.codecogs.com/eqnedit.php?latex=\bar{g}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?\bar{g}" title="\bar{g}" /></a> has the benefit of learning from an unlimited number of datasets, so it is only limited by its ability to approximate <a href="https://www.codecogs.com/eqnedit.php?latex=f" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f" title="f" /></a> by the limitation in the model learning itself.
+
+The term <a href="https://www.codecogs.com/eqnedit.php?latex=E_D[(g^D(x)&space;-&space;\bar{g}(x))^2]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E_D[(g^D(x)&space;-&space;\bar{g}(x))^2]" title="E_D[(g^D(x) - \bar{g}(x))^2]" /></a> is the variance of the random variable <a href="https://www.codecogs.com/eqnedit.php?latex=g^D(x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?g^D(x)" title="g^D(x)" /></a>.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=var(x)&space;=&space;E_D[(g^D(x)&space;-&space;\bar{g}(x))^2]" target="_blank"><img src="https://latex.codecogs.com/gif.latex?var(x)&space;=&space;E_D[(g^D(x)&space;-&space;\bar{g}(x))^2]" title="var(x) = E_D[(g^D(x) - \bar{g}(x))^2]" /></a>
+
+The variance measures the variation in the final htpothesis, depending on the data set. We thus arrive at the bias-variance decomposition of out-of-sample error.
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=E_D[E_{out}(g^D)]&space;=&space;E_x[bias(x)&space;&plus;&space;var(x)]&space;=&space;bias&space;&plus;&space;var" target="_blank"><img src="https://latex.codecogs.com/gif.latex?E_D[E_{out}(g^D)]&space;=&space;E_x[bias(x)&space;&plus;&space;var(x)]&space;=&space;bias&space;&plus;&space;var" title="E_D[E_{out}(g^D)] = E_x[bias(x) + var(x)] = bias + var" /></a>
