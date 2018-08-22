@@ -41,4 +41,6 @@ With <a href="https://www.codecogs.com/eqnedit.php?latex=H_1" target="_blank"><i
 
 
 
-Source: ABU-MOSTAFA, Yaser S.; MAGDON-ISMAIL, Malik; LIN, Hsuan-Tien. Learning from data. New York, NY, USA:: AMLBook, 2012.
+
+
+- Source: ABU-MOSTAFA, Yaser S.; MAGDON-ISMAIL, Malik; LIN, Hsuan-Tien. Learning from data. New York, NY, USA:: AMLBook, 2012.
