@@ -24,6 +24,6 @@ Considering the target function <a href="https://www.codecogs.com/eqnedit.php?la
 
 Fit the model using:
 
-<a href="https://www.codecogs.com/eqnedit.php?latex=H_0:" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_0:" title="H_0:" /></a>: Set of all lines of the form <a href="https://www.codecogs.com/eqnedit.php?latex=h(x)&space;=&space;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?h(x)&space;=&space;b" title="h(x) = b" /></a>
+<a href="https://www.codecogs.com/eqnedit.php?latex=H_0:" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_0" title="H_0" /></a>: Set of all lines of the form <a href="https://www.codecogs.com/eqnedit.php?latex=h(x)&space;=&space;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?h(x)&space;=&space;b" title="h(x) = b" /></a>
 
 For <a href="https://www.codecogs.com/eqnedit.php?latex=H_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_0" title="H_0" /></a>, we choose the constant hypothesis that best fits the data (the horizontal line at the midpoint, <a href="https://www.codecogs.com/eqnedit.php?latex=b&space;=&space;\frac{y_1&plus;y_2}{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?b&space;=&space;\frac{y_1&plus;y_2}{2}" title="b = \frac{y_1+y_2}{2}" /></a>).
