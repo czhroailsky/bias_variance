@@ -27,3 +27,14 @@ Fit the model using:
 <a href="https://www.codecogs.com/eqnedit.php?latex=H_0:" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_0" title="H_0" /></a>: Set of all lines of the form <a href="https://www.codecogs.com/eqnedit.php?latex=h(x)&space;=&space;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?h(x)&space;=&space;b" title="h(x) = b" /></a>
 
 For <a href="https://www.codecogs.com/eqnedit.php?latex=H_0" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_0" title="H_0" /></a>, we choose the constant hypothesis that best fits the data (the horizontal line at the midpoint, <a href="https://www.codecogs.com/eqnedit.php?latex=b&space;=&space;\frac{y_1&plus;y_2}{2}" target="_blank"><img src="https://latex.codecogs.com/gif.latex?b&space;=&space;\frac{y_1&plus;y_2}{2}" title="b = \frac{y_1+y_2}{2}" /></a>).
+
+
+# Bias_variance_fx_ax_b.py
+
+Consider a target function <a href="https://www.codecogs.com/eqnedit.php?latex=f(x)&space;=&space;sin(\pi&space;x)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?f(x)&space;=&space;sin(\pi&space;x)" title="f(x) = sin(\pi x)" /></a> and a data set of size <a href="https://www.codecogs.com/eqnedit.php?latex=N=2" target="_blank"><img src="https://latex.codecogs.com/gif.latex?N=2" title="N=2" /></a>. We sample <a href="https://www.codecogs.com/eqnedit.php?latex=x" target="_blank"><img src="https://latex.codecogs.com/gif.latex?x" title="x" /></a> uniformly in [-1, 1] to generate a data set <a href="https://www.codecogs.com/eqnedit.php?latex=(x_1,&space;y_1)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(x_1,&space;y_1)" title="(x_1, y_1)" /></a>, <a href="https://www.codecogs.com/eqnedit.php?latex=(x_2,&space;y_2)" target="_blank"><img src="https://latex.codecogs.com/gif.latex?(x_2,&space;y_2)" title="(x_2, y_2)" /></a>.
+
+Fit the model using:
+
+<a href="https://www.codecogs.com/eqnedit.php?latex=H_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_1" title="H_1" /></a>: Set of all lines of the form <a href="https://www.codecogs.com/eqnedit.php?latex=h(x)&space;=&space;ax&plus;b" target="_blank"><img src="https://latex.codecogs.com/gif.latex?h(x)&space;=&space;ax&plus;b" title="h(x) = ax+b" /></a>
+
+With <a href="https://www.codecogs.com/eqnedit.php?latex=H_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_1" title="H_1" /></a>, the learned hypothesis is wilder and varies extensively depending on the dataset.
