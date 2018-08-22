@@ -39,8 +39,8 @@ Fit the model using:
 
 With <a href="https://www.codecogs.com/eqnedit.php?latex=H_1" target="_blank"><img src="https://latex.codecogs.com/gif.latex?H_1" title="H_1" /></a>, the learned hypothesis is wilder and varies extensively depending on the dataset.
 
-
-
-
-
+\n
+\n
+\n
+\n
 - Source: ABU-MOSTAFA, Yaser S.; MAGDON-ISMAIL, Malik; LIN, Hsuan-Tien. Learning from data. New York, NY, USA:: AMLBook, 2012.
